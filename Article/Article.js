@@ -30,5 +30,5 @@ this.articles.classList.toggle("article-open");
 
 let articles = document.querySelectorAll(".article").forEach(article => {
   new Article(article);
-  console.log(Article);
+  // console.log(Article);
 });
